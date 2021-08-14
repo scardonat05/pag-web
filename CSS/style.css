@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/Ferreteria.jpg");
+    /* background: #1a2a6c; */
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(41, 98%, 58%, 0.6), rgba(139, 101, 101, 0.541), hsla(228, 61%, 26%, 0.6)), url("../img/Ferreteria.jpg");
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(41, 98%, 58%, 0.6), rgba(178, 31, 31, 0.199), hsla(228, 61%, 26%, 0.459)), url("../img/Ferreteria.jpg");
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+nav {
+
+    text-align: right;
+    padding: 30px 60px 0 0;
+    font-size: 100;
+    font-weight: 1000;
+    background: gray;
+    padding: 5px;
+
+}
+
+nav>a {
+    color: #fff;
+    font-weight: 20;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+.titulos {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulos h1 {
+    font-size: 50px;
+    font-weight: 6000;
+    color: red;
+}
+
+.titulos h2 {
+    font-size: 20px;
+    font-weight: 6000;
+    color: white;
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.cuenta {
+
+    background-color: mintcream;
+    padding: 10px;
+    color: white;
+    margin-top: -5%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.informacion {
+
+    display: flex;
+    text-align: justify;
+    color: gray;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 35%;
+    margin-right: 30%;
+    margin-top: 2%;
+
+}
+
+#bienvenido {
+
+    margin-top: 50px;
+    align-items: left;
+    margin-left: 40%;
+    color: gray;
+
+}
+
+img {
+
+    background-image: url("../img/Ferretero.jpg");
+    background-position: center;
+    margin-left: 200px;
+    padding: 90 60 0 0;
+
+}
+
+.flex-container {
+
+    padding: 2%;
+    float: left;
+    margin-top: 25%;
+    width: 15%;
+    height: 600px;
+    background-color: white;
+    margin: 25px;
+    text-align: center;
+    margin-left: 50px;
+    border: 2px solid black;
+
+}
+
+.flex-container div {
+
+    margin-top: 22%;
+    background-color: white;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+h3>a:hover{
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+#zonas{
+
+    color: tomato;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: dimgrey;
+    padding: 2%;
+
+}
